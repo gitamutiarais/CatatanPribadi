@@ -6,7 +6,6 @@ const Header = ({ cari, keyword }) => {
       <h1>Catatan PribadiKu</h1>
       <div className="app_cari">
         <input type="text" placeholder="Cari catatan... " onChange={cari} value={keyword} />
-        <i class="bx bx-search-alt"></i>
       </div>
     </div>
   );
